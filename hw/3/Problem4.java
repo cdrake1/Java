@@ -3,6 +3,7 @@ public class Problem4 {
     {
         
         //initialize the point through a generator
+        // JA: This will generate points outside the circle
         double randomX = Math.random()*(5.0 - -5.0 +1) + -5.0;
         double randomY = Math.random()*(5.0 - -5.0 +1) + -5.0;
         System.out.println("The point is " + "(" + randomX + " , " + randomY + ")");
