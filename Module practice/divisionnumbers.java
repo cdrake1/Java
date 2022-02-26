@@ -1,6 +1,7 @@
 public class divisionnumbers {
     public static void main(String[] args){
-        System.out.println(50 / 3);
+        double a = 6.5;
+        System.out.println(a /= 2);
     }
     
 }
