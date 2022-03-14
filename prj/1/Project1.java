@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: It's always a good idea to add a comment in the header. What does this program do?
 public class Project1 {
     public static void main( String[] args)
     {
@@ -9,6 +10,7 @@ public class Project1 {
         System.out.print("Enter the integer values for S1 and T between -1000 and 1000: ");
         double S1 = input.nextDouble();
         double T = input.nextDouble();
+        // JA: Your variables should be int and the names should be lowercase.
 
         //Check for validity of inputs
         while (S1 >= 1000 || S1 <= -1000 ||T >= 1000 || T <= -1000)
