@@ -24,9 +24,9 @@ public class Project2 {
         int count = 0;   //create a count variable to count when there is a value with a remainder
         for(int i = 0; i< intArray.length; i++)
         {
-            arrayTwo[intArray[i] % 42] = 1;
+            arrayTwo[intArray[i] % 42] = 1;  //set the module of each number as an index within the second array
         }
-        for(int j = 0; j<arrayTwo.length; j++)
+        for(int j = 0; j<arrayTwo.length; j++)  // read through the second array and count distinct numbers
         {
             count += arrayTwo[j];
         }
