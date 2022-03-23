@@ -12,6 +12,7 @@ public class Problem4 {
         //write output statement and pass input 
     }
 
+    // JA: Hour logic is not correct
     public static String format(int seconds)
     {
         int temp = 0;
