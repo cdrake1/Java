@@ -27,7 +27,7 @@ public class Problem3 {
         {
             if (Character.isDigit(countE.charAt(i))) //if its a digit keep it and count how many of each digit appear
             {
-                howMany[countE.charAt(i) - '0']++;
+                howMany[countE.charAt(i) - '0']++; //to keep in bounds
             }
         }
         return howMany; //return cont array
