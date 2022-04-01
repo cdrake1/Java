@@ -37,6 +37,7 @@ public class Problem2 {
         
 
     }
+    // JA: This is giving negative area
     public static double PolyArea(double[][] polyA)
     {
         double area1 = 0.0;  //declare area
