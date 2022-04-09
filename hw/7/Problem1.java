@@ -38,6 +38,7 @@ public class Problem1 {
     }
 
     
+    // JA: Where is the UML diagram?
     public static class QuadraticEquation {
     /** The values a,b and c */
     private double vala = 0;
