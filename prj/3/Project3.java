@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Some more comments would be useful
 public class Project3 {
     public static void main(String[] args) 
     {
@@ -14,11 +15,11 @@ public class Project3 {
         String in = " ";
 
 
-        char[][] circus = new char[width][length];
-        for(int i =0; i < length; i++)
+        char[][] circus = new char[width][length]; // JA: This is reversed
+        for(int i =0; i < length; i++) // JA: THis would need to be width
         {
             System.out.println("Enter each row: ");
-            in = input.next();
+            in = input.next(); 
             for(int j = 0; j< width; j++)
             {
                 char Charin = in.charAt(j);
