@@ -1,5 +1,6 @@
 import java.util.*;
 
+// JA: You have to insert the heaviest objects first
 public class Problem2 {
     public static void main(String[] args)
     {
