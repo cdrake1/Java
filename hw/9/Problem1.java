@@ -29,6 +29,7 @@ public class Problem1 {
             System.out.println("Done");
 
         }
-        input.close(); //close input
+        input.close(); 
+        //close input
     }
 }

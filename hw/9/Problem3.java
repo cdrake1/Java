@@ -9,8 +9,9 @@ public class Problem3
         String binary = input.nextLine();
         input.close();
         int answer = 0;
-        try //try to pass value
+        try
         {
+            //try to pass value
             answer = bin2Dec(binary);
         }
         //if it doesnt work catch it

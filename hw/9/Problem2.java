@@ -9,12 +9,14 @@ public class Problem2 {
         String binary = input.nextLine();
         input.close();
         int answer = 0;
-        try //try to pass value the bin2dec
+        try
         { 
+            //try to pass value the bin2dec
             answer = bin2Dec(binary);
         }
         catch(NumberFormatException e)
-        { //catch exception if doesnt work
+        { 
+            //catch exception if doesnt work
             System.out.println("This is not binary");  //print this if exception 
         }
         System.out.print(answer);
