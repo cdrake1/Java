@@ -1,0 +1,18 @@
+UML diagram
+
+Class BabyNames:
+
+- Name:String
+- Gender: String
+- Year: int
+- Rank: int
+
++ getName(): String
++ getGender(): String
++ getYear(): int
++ getRank(): int
+
++ setName(): String
++ setGender(): String
++ setYear(): int
++ setRank(): int
