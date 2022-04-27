@@ -16,6 +16,7 @@ public class Problem1 {
             System.out.print("Enter an index: ");
             int index = input.nextInt();
             int check = (int)randomArr[index];
+            // JA: What about printing the value?
         }
         catch(Exception e)
         {
