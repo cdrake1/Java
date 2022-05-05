@@ -41,6 +41,7 @@ public class Project4
         {
             findName(name, year, BabyNames);
         }
+        // JA: What about the output?
 
     }
     private static ArrayList<BabyName> loadNames(File fileT)
@@ -91,6 +92,7 @@ public class Project4
 public class BabyName 
 {
     //babyname class
+    // JA: These fields should be private
     String name;
     String gender;
     int year;

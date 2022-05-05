@@ -11,6 +11,7 @@ public class Rational extends Number implements Comparable<Rational>
       public static Rational parseRationalNumber(String total)
       {
 
+        // This is a cyclic definition
         return Rational.parseRationalNumber(total);
       }
     

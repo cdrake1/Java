@@ -3,7 +3,7 @@ public class Time implements Comparable<Time>
 {
     //variables
     private long time;
-    private int hour;
+    private int hour; // JA: You don't need these
     private int minute;
     private int second;
     //calender
@@ -22,6 +22,7 @@ public class Time implements Comparable<Time>
         this.hour = hours;
         this.minute = minutes;
         this.second = seconds;
+        // JA: These should be converted into time.
     }
     //setter
     public void setTime(long elapsedT)
@@ -59,6 +60,7 @@ public class Time implements Comparable<Time>
     }
     //compare to method
     @Override
+    // JA: Difference between the two
     public int compareTo(Time o) {
         // compare times based on total seconds
         if (this.time < o.getSeconds())
