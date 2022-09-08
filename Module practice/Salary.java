@@ -27,6 +27,7 @@ public class Salary {
         System.out.println("Amount of your raise: $" + (int)(raise * 100)/100.0);
         System.out.println("Your new salary: $" + 
         (int)((currentSalary + raise) * 100)/100.0);
+        input.close();
     }
     
 }

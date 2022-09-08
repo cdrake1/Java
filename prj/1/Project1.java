@@ -1,27 +1,28 @@
-import java.util.Scanner;
+//The number T is called the mean of two numbers S1 and S2 if T is equal to (S1 + S2)/2. 
+//Mike’s birthday present for Steven was two integers S1 and S2. 
+//Steven promptly calculated their mean which also happened to be an integer but then lost S2! Help Steven restore S2.
 
-// JA: It's always a good idea to add a comment in the header. What does this program do?
+import java.util.Scanner;
 public class Project1 {
     public static void main( String[] args)
     {
         Scanner input = new Scanner(System.in);
 
-        //Have the user enter the two integers S1 and T
+        //Have the user enter the two integers s1 and t
         System.out.print("Enter the integer values for S1 and T between -1000 and 1000: ");
-        double S1 = input.nextDouble();
-        double T = input.nextDouble();
-        // JA: Your variables should be int and the names should be lowercase.
+        int s1 = input.nextInt();
+        int t = input.nextInt();
 
         //Check for validity of inputs
-        while (S1 >= 1000 || S1 <= -1000 ||T >= 1000 || T <= -1000)
+        while (s1 >= 1000 || s1 <= -1000 ||t >= 1000 || t <= -1000)
         {  
             System.out.println("Incorrect input");
             System.out.print("Enter the integer values for S1 and T between -1000 and 1000: ");
-             S1 = input.nextDouble();
-             T = input.nextDouble();
+             s1 = input.nextInt();
+             t = input.nextInt();
         }
             // Calculate for S2
-        Double S2 = 2 * T - S1;
+        int S2 = 2 * t - s1;
 
         //print output
         System.out.println("S2 is equal to " + S2);

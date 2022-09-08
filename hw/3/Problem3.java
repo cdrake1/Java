@@ -1,5 +1,5 @@
+//Write a program that prompts the user to enter the coordinates of two points and displays the line equation in the slope intercept form,
 import java.util.Scanner;
-
 public class Problem3 {
     public static void main(String[] args)
     {

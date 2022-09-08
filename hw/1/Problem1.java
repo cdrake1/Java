@@ -1,5 +1,8 @@
+//Write a program that computes the discriminant for the equation 2x2 + 5x + 4 = 0.
 public class Problem1 {
     public static void main(String[] args){
+        
+        
         //Initialize each variable
         int a = 2;
         int b = 5;

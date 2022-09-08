@@ -1,5 +1,7 @@
-import java.util.Scanner;
+//Write a program that prompts the user to enter a genome and displays all genes in the genome. 
+//If no gene is found in the input sequence, display “no gene is found”.
 
+import java.util.Scanner;
 public class Problem3 {
     public static void main(String[] args)
     {

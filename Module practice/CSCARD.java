@@ -32,7 +32,7 @@ public class CSCARD {
 
 
 
-
+        input.close();
     }
     
 }

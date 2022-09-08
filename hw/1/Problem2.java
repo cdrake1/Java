@@ -1,3 +1,4 @@
+//This program displays the average acceleration.
 public class Problem2 {
     public static void main(String[] args){
         //Initialize each variable

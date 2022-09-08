@@ -1,5 +1,5 @@
+//Write a program that prompts the user to enter the numerator and denominator of a fraction. The program determines whether the number is a proper fraction or an improper fraction
 import java.util.Scanner;
-
 public class Problem2 {
     public static void main(String[] args)
     {

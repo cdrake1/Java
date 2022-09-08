@@ -1,5 +1,5 @@
+//Write a program that prompts the user to enter the number of the sides, the radius of the bounding circle of a polygon, and displays the coordinates of the corner points on the polygon.
 import java.util.Scanner;
-
 public class Problem2 {
     public static void main(String[] args)
     {

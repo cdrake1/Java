@@ -1,3 +1,4 @@
+//write a program to find out the height of the building, given the travel time for the ball to the ground
 import java.util.Scanner;
 public class Problem2 {
     public static void main(String[] args) {

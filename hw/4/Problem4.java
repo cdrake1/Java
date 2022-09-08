@@ -1,7 +1,7 @@
+//Write a program that prompts the user to enter a positive integer 
+//and obtains its square root in simplest form.
 import java.util.Scanner;
-
 public class Problem4 {
-
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);

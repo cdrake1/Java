@@ -1,3 +1,4 @@
+//Write a program that prompts the user to enter input for F , m, and a, and displays the coefficient of friction.
 import java.util.Scanner;
 public class Problem3 {
     public static void main(String[] args) {

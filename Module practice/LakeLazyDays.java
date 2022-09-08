@@ -9,14 +9,14 @@ public class LakeLazyDays {
         if (temp >= 80){
             System.out.println("Go Swimming");
         }
-        else if (60 <= temp < 80){
+        else if (60 <= temp && temp < 80){
             System.out.println("Play tennis");
         }
-        else if ( 40 <= temp < 60){
+        else if ( 40 <= temp && temp < 60){
             System.out.println("Go play Golf");
         }
         else
         System.out.println("Go Skiing or Snowboarding");
-
+        input.close();
     }
 }

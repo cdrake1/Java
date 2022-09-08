@@ -1,5 +1,5 @@
+//Write a program that prompts the user to enter the number of sides and their length of a regular polygon and displays its area.
 import java.util.Scanner;
-
 public class Problem1 {
     public static void main(String[] args)
     {

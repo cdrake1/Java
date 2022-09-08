@@ -1,5 +1,5 @@
+//Write a program that prompts the user to enter values for a, b, and c and displays the result based on the discriminant.
 import java.util.Scanner;
-
 public class Problem1 {
     public static void main(String[] args)
     {
