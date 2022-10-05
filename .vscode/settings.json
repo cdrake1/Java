@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "hw/5",
-        "prj/1",
-        "hw"
+        "hw",
+        "Module practice",
+        "prj"
     ]
 }

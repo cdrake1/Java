@@ -6,49 +6,42 @@ public class SimpleCalculator
     {
         Scanner input = new Scanner(System.in);
 
-        double num1;
-        double num2;
-        String operation;
-
         System.out.println("Please enter the first number: ");
-        num1 = input.nextDouble();
+        double num1 = input.nextDouble();
         System.out.println("Please enter the second number: ");
-        num2 = input.nextDouble();
-
-        Scanner op = new Scanner(System.in);
+        double num2 = input.nextDouble();
 
         System.out.println("Please enter the operation sign you want to use: ");
-        operation = op.nextLine();
+        String op = input.next();
 
-        double ans;
-        if(operation == "+")
+        double ans = 0;
+        if(op.equals("+"))
         {
             ans = num1 + num2;
             System.out.println(num1 + " + " + num2 + " = " + ans);
         }
-        if(operation == "-")
+        if(op.equals("-"))
         {
             ans = num1 - num2;
             System.out.println(num1 + " - " + num2 + " = " + ans);
         }
-        if(operation == "/")
+        if(op.equals("/"))
         {
             ans = num1 / num2;
             System.out.println(num1 + " / " + num2 + " = " + ans);
         }
-        if(operation == "*")
+        if(op.equals("*"))
         {
             ans = num1 * num2;
             System.out.println(num1 + " * " + num2 + " = " + ans);
         }
-        if(operation == "%")
+        if(op.equals("%"))
         {
             ans = num1 % num2;
             System.out.println(num1 + " % " + num2 + " = " + ans);
         }
 
         input.close();
-        op.close();
     }
     
 }
